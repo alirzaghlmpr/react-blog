@@ -1,7 +1,12 @@
 # React Blog with DummyJSON API
 
+![react-bloh](https://github.com/user-attachments/assets/10200474-06b4-4685-bfeb-1ec867d80495)
+
 A React blog application featuring tag filtering, infinite scroll, and detailed author and post pages, built with Vite and React.
 
+## 💻 See Online Demo
+- https://react-blog-mu-two.vercel.app/
+  
 ## 🔧 Technologies Used  
 - React  
 - Vite  
@@ -15,7 +20,12 @@ A React blog application featuring tag filtering, infinite scroll, and detailed 
 - Infinite scroll to dynamically load more posts  
 - Post detail pages showing post content and comments with author information  
 - Author pages displaying author details and their posts
+- Random image for avatars (https://avatar-placeholder.iran.liara.run/)
 
+## ⚙️ Dummyjson API's
+- Project uses the Post,Comments,Tags and User API's , read doc:
+  https://dummyjson.com/docs
+  
 ## 🛠 Project Setup
 
 ```bash
