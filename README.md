@@ -1,12 +1,32 @@
-# React + Vite
+# React Blog with DummyJSON API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React blog application featuring tag filtering, infinite scroll, and detailed author and post pages, built with Vite and React.
 
-Currently, two official plugins are available:
+## 🔧 Technologies Used  
+- React  
+- Vite  
+- Axios  
+- React Router  
+- React Query  
+- Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features  
+- Main page displaying blog posts with tag filtering  
+- Infinite scroll to dynamically load more posts  
+- Post detail pages showing post content and comments with author information  
+- Author pages displaying author details and their posts
 
-## Expanding the ESLint configuration
+## 🛠 Project Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Clone the repo
+git clone https://github.com/your-username/your-blog-repo.git
+
+# Move into project directory
+cd your-blog-repo
+
+# Install dependencies
+npm install
+
+# Run locally
+npm run dev
