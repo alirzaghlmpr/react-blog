@@ -2,7 +2,6 @@ import React from "react";
 import { Link, useParams } from "react-router";
 import { useQuery } from "@tanstack/react-query";
 
-import getPosts from "../apis/getPosts";
 import CommentBoxSkeleton from "../components/CommentBox/CommentBoxSkeleton";
 import AuthorSeeMorePostBox from "../components/AuthorSeeMorePostBox";
 import AuthorSeeMorePostBoxSkeleton from "../components/AuthorSeeMorePostBox/AuthorSeeMorePostBoxSkeleton";
@@ -12,12 +11,13 @@ import PostMetas from "../components/PostMetas/PostMetas";
 import PostMetasSkeleton from "../components/PostMetas/PostMetasSkeleton";
 import PostComments from "../components/PostCommetns";
 import AuthorsLastPosts from "../components/AuthorsLastPosts";
+import getPostById from "../apis/getPostById";
 
 const Post = () => {
   const { id } = useParams();
   const { isPending, error, data } = useQuery({
     queryKey: ["singlePost", id],
-    queryFn: () => getPosts(id),
+    queryFn: () => getPostById(id),
   });
 
   return (

@@ -21,7 +21,7 @@ const Root = () => {
     isFetchingNextPage,
   } = useInfiniteQuery({
     queryKey: ["posts", tag],
-    queryFn: ({ pageParam = 0 }) => getPosts(null, LIMIT, pageParam, tag),
+    queryFn: ({ pageParam = 0 }) => getPosts(LIMIT, pageParam, tag),
     getNextPageParam: (lastPage, allPages) => {
       const total = lastPage?.data?.total || 0;
       const currentSkip = lastPage?.data?.skip || 0;
