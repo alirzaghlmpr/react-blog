@@ -6,6 +6,9 @@ A React blog application featuring tag filtering, infinite scroll, and detailed 
 
 ## 💻 See Online Demo
 - https://react-blog-mu-two.vercel.app/
+
+## 📽️ Project tuturial
+- https://youtu.be/RA9faIGD9To?si=PpsAr9h14zESp7Ob
   
 ## 🔧 Technologies Used  
 - React  
